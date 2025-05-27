@@ -32,6 +32,7 @@ def analyze(symbol):
 
 if __name__ == "__main__":
     print("✅ Max Pain Bot 已啟動，開始監控 BTCUSDT 與 ETHUSDT 15m K 線...")
+    send_telegram_message("✅ Max Pain Bot 啟動成功（測試訊息）")
     while True:
         for sym in SYMBOLS:
             try:
