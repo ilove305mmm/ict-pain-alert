@@ -1,0 +1,10 @@
+import os
+
+SYMBOLS = ["BTCUSDT", "ETHUSDT"]
+INTERVAL = "15m"
+VOLUME_MULTIPLIER = 2.0
+PRICE_CHANGE_THRESHOLD = 1.0
+HOLD_PERIOD = 10  # Unused for alerting, here for compatibility
+
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
